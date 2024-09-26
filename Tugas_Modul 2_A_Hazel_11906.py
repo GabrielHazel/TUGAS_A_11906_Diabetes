@@ -2,8 +2,8 @@ import streamlit as st
 import pickle
 import os
 
-model_path = 'D:\perkuliahan\semester 5\PMDPM\Pertemuan 4\TUGAS_A_11906'
-model=os.path.join(model_path, 'RF_heartDisease_model.pkl')
+model_path = 'RF_diabetes_model.pkl'
+
 
 with open(model, 'rb') as f:
     loaded_model = pickle.load(f)
